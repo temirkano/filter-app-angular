@@ -1,0 +1,8 @@
+<div class="filter-container">
+  <search-query (searchChange)="onSearchChange($event)"></search-query>
+  <app-table
+    [data]="filteredData"
+    [columns]="['address', 'gateway', 'interface']"
+    [headers]="['IP адрес', 'Шлюз', 'Интерфейс']"
+  ></app-table>
+</div>

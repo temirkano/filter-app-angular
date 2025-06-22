@@ -1,0 +1,25 @@
+@use "../../../../styles/variables" as vars;
+
+.search-container {
+  padding: 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 1px solid vars.$gray-600;
+  border-radius: 0;
+  font-size: 1rem;
+  background: transparent;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  outline: none;
+  border-bottom-color: vars.$primary;
+}
+
+// .search-input:hover:not(:focus) {
+//   border-bottom-color: #6b7280;
+// }

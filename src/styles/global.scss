@@ -1,0 +1,15 @@
+@use "@/../variables" as vars;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0 160px;
+  font-family: sans-serif;
+
+  @media (max-width: 1280px) {
+    padding: 0;
+  }
+}

@@ -1,0 +1,9 @@
+<div class="search-container">
+  <input
+    type="text"
+    [(ngModel)]="searchQuery"
+    (ngModelChange)="onSearchChange()"
+    placeholder="Поиск по IP, шлюзу или интерфейсу"
+    class="search-input"
+  />
+</div>
